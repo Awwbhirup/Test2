@@ -1,0 +1,375 @@
+hgroup h1 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    margin-top: -10px;
+}
+
+hgroup h2 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 4px;
+}
+
+hgroup 
+{
+    background-color: aquamarine;
+    margin-right: 1500px;
+    margin-left: 5px;
+    padding: 50px;
+    padding-bottom: 20px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.c1 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(205, 245, 232);
+    margin-left: 5px;
+    margin-right: 100px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border: 5px solid rgb(6, 178, 15);
+}
+
+.c1 h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.c1 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+code 
+{
+    font-family: monospace;
+    font-size: 30px;
+    background-color: rgb(23, 244, 34);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.codesnippet p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.codesnippet code 
+{
+    font-family: monospace;
+    font-size: 25px;
+    background-color: rgb(23, 244, 34);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 1800px;
+    display: block;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+    border: 3px solid rgb(4, 87, 8);
+}
+
+.tut 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 5px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+
+iframe 
+{
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+    border: 5px solid rgb(90, 246, 55);
+}
+
+
+.pic 
+{
+    float: right;
+    margin-right: 900px;
+    margin-bottom: 0px;
+    margin-top: -350px;
+}
+
+.pic p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-right: 10px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: -5px;
+
+}
+
+.pic img 
+{
+    border-radius: 10px;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+    border: 5px solid rgb(90, 246, 55);
+    width: 500px;
+    height: 300px;
+}
+
+
+.Tablec 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(205, 245, 232);
+    margin-left: 5px;
+    margin-right: 350px;
+    display: block;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border: 5px solid rgb(6, 178, 15);
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    margin-left: 300px;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Tablec h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: -30px;
+}
+
+table 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    padding: 10px;
+    border: 5px solid rgb(6, 178, 15);
+    align-self: center;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+th,
+td 
+{
+    border: 3px solid rgb(6, 178, 15);
+    padding: 15px;
+    overflow: hidden;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+table thead:first-child th 
+{
+    padding: 30px 15px;
+    font-size: 45px;
+    background-color: rgb(90, 246, 55);
+    overflow: hidden;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.one 
+{
+    background-color: rgb(234, 225, 118);
+    border: 3px solid rgb(6, 178, 15);
+    overflow: hidden;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.two 
+{
+    background-color: rgb(224, 131, 68);
+    border: 3px solid rgb(6, 178, 15);
+    overflow: hidden;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.three 
+{
+    background-color: rgb(224, 68, 68);
+    border: 3px solid rgb(6, 178, 15);
+    overflow: hidden;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+li::before 
+{
+    content: "\2714";
+    color: rgb(6, 178, 15);
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+li 
+{
+    list-style-type: none;
+}
+
+.formsignup 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(205, 245, 232);
+    margin-left: 750px;
+    margin-right: 0px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border: 5px solid rgb(6, 178, 15);
+    max-width: 700px;
+    height: 1300px;
+}
+
+.formsignup h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.formsignup>opl 
+{
+    margin-left: -40px;
+    display: block;
+
+}
+
+.opl li::before 
+{
+    content: "";
+}
+
+.ff input 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border: 5px solid rgb(6, 178, 15);
+    display: block;
+    margin-left: -10px;
+    width: 500px;
+    margin-top: 20px;
+
+
+}
+
+.ff input:focus 
+{
+    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.ff label 
+{
+    font-size: 40px;
+    margin-left: 65px;
+    font-family: monospace;
+    background-color: rgb(90, 246, 55);
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+    border: 3px solid rgb(4, 87, 8);
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+.jst 
+{
+    font-size: 40px;
+    margin-left: 25px;
+    font-family: monospace;
+    background-color: rgb(90, 246, 55);
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+    border: 3px solid rgb(4, 87, 8);
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 700px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+.opl li 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.sf label 
+{
+    font-size: 35px;
+    margin-left: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sf input[type="radio"] 
+{
+    display: inline-block;
+
+}
+
+.buto 
+{
+    width: 300px;
+    height: 120px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    background-color: rgb(90, 246, 55);
+    ;
+    margin-left: 210px;
+    margin-right: 18px;
+    margin-top: 30px;
+
+
+}
+
+.buto:active 
+{
+    box-shadow:
+        inset -8px -8px 8px rgba(177, 245, 160, 0.6),
+        inset 8px 8px 8px rgba(23, 48, 27, 0.6);
+}

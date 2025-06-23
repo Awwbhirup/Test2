@@ -1,0 +1,249 @@
+.fullpage
+{
+  background-color:#9d81c2 ;
+  width: 375px;
+  height: 912px;
+  margin: 0 auto;
+}
+
+
+html
+{
+  background-color:#000000 ;
+}
+
+
+.fbox
+{
+    background-color:#3e1f65;
+    width: 355px;
+    height: 590px;
+    border: #ffffff solid 10px;
+    border-radius: 65px;
+    margin: 0 auto;
+
+}
+
+.toptext
+{
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #cfc7d8;
+    line-height: 101%;
+    text-align: right;
+    padding-top: 40px;
+    padding-right: 23px;
+}
+
+.f1
+{
+ display:flex;
+ background-color:#5b407c;
+ width: 320.45px;
+ height: 125px;
+ border: #ada0be solid 3px;
+ border-radius: 32px; 
+ margin-left: 18px;
+ margin-right: 18px;
+ margin-top: 0px;
+ margin-bottom: 23px;
+}
+
+.f2
+{
+ display:flex;
+ background-color:#5b407c;
+ width: 320.45px;
+ height: 125px;
+ border: #ada0be solid 3px;
+ border-top-left-radius: 32px;
+ border-top-right-radius: 32px;
+ border-bottom-right-radius: 65px;
+ border-bottom-left-radius: 65px;
+ margin-left: 18px;
+ margin-right: 300px;
+ margin-top: 0px;
+ margin-bottom: 26px; 
+}
+
+.f1 img
+{
+ width: 58px;
+ height: 58px;
+ margin-left: 37px;
+ margin-right: 34.8px;
+ margin-top: 31px;
+ margin-bottom: 31px;
+ display: inline-block;
+}
+.f2 img
+{
+ width: 58px;
+ height: 58px;
+ margin-left: 37px;
+ margin-right: 34.8px;
+ margin-top: 31px;
+ margin-bottom: 31px;
+}
+
+.f1 p
+{
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #cfc7d8;
+    text-align: right;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 17px;
+    text-align: center;
+    
+}
+.f2 p
+{
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #cfc7d8;
+    margin-top: 40px;
+    margin-left: 37px;
+    text-align: center;
+}
+
+.sbox
+{
+    background-color:#3e1f65;
+    width: 337px;
+    height: 119px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px; 
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    display:flex;
+
+    
+}
+
+.top
+{
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #b8cbff;
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+
+.sbox img
+{
+    width: 164px;
+    height: 162px;
+    margin-left: 37px;
+    margin-right: 34.8px;
+    margin-top: -25px;
+    margin-left: 110px;
+    margin-bottom: 31px;
+    display: inline-block;
+    
+}
+
+.txt
+{
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #cfc7d8;
+    text-align: left;
+
+    margin-top: 36px;
+    margin-left: -63px;
+    margin-right: -63px;
+
+}
+
+.lbox
+{
+    background-color:#3e1f65;
+    width: 337px;
+    height: 70px; 
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display:flex;
+}
+
+.topl
+{
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+    line-height: 190%;;
+    margin-left: 10px;
+    margin-right: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.lbox2
+{
+    background-color:#3e1f65;
+    width: 337px;
+    height: 50px; 
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display:flex;
+}
+
+.hellolink
+{
+  width: 129px;
+  height:24px;
+  font-size: 9px;
+  font-weight: bold;
+  font-family: 'Tilt Warp', sans-serif;
+  color:#ffffff;
+  text-align: center;
+  border: #ffffff solid 0px;
+  border-radius: 25px;
+  background-color: #9d81c2;
+  margin-left: 8px;
+  margin-right: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+
+.hellolink:hover 
+{
+  width: 132px;
+  height:26px;
+  margin-left: 6px;
+  margin-right: 18px;
+  margin-top: -2px;
+  margin-bottom: -5px;
+  border: #b5abc2 solid 3px;
+}
+
+.hellolink:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>CODE x CLASSES</title>
+    <link href="../Css/styless.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body background="images/lab.png">
+    <audio autoplay loop>
+      <source src="sounds/bg1.mp3" type="audio/mpeg" />
+    </audio>
+
+    <hgroup>
+      <h1>CODE X CLASSES</h1>
+      <h2>Code and Classes for the Web</h2>
+    </hgroup>
+
+    <br /><br />
+
+    <div class="c1">
+      <h3>FOR LOOPS</h3>
+      <p>
+        For loops are used to iterate over a sequence (like a list, tuple, or
+        string) or to repeat a block of code a certain number of times.
+      </p>
+      <br />
+      <p>
+        To use for loops you use the keyword <code>for</code> followed by a
+        variable name, the <code>in</code> keyword, and the sequence you want to
+        iterate over. The block of code to be executed is indented below.
+      </p>
+      <br />
+      <div class="codesnippet">
+        <p>EXAMPLE 1:</p>
+        <code> for(for i in range(5):<br />print("Hello World") </code>
+      </div>
+      <br />
+      <div class="codesnippet">
+        <p>EXAMPLE 2:</p>
+        <code> for(for i in range(10):<br />print("The number is", i) </code>
+      </div>
+      <br />
+      <br />
+
+      <div class="pic">
+        <p>DIAGRAM:</p>
+        <img src="images/for.jpg" alt="forimage" />
+      </div>
+
+      <span class="tut">TUTORIALS:</span>
+      <iframe
+        id="fortutorial"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/0ZvaDa8eT5s"
+        title="YouTube video player"
+      ></iframe>
+    </div>
+
+    <br />
+    <div class="c1">
+      <h3>WHILE LOOPS</h3>
+      <p>
+        While loops are used to repeat a block of code as long as a specified
+        condition is true.
+      </p>
+      <br />
+      <p>
+        To use while loops you use the keyword <code>while</code> followed by a
+        condition. The block of code to be executed is indented below.
+      </p>
+      <br />
+      <div class="codesnippet">
+        <p>EXAMPLE 1:</p>
+        <code> while (x &lt; 5):<br />print("Hello World") </code>
+        <br />
+        <p>EXAMPLE 2:</p>
+        <code>
+          while (x &lt; 10):<br />print("The number is", x)<br />x += 1
+        </code>
+      </div>
+      <br />
+      <br />
+
+      <div class="pic">
+        <p>DIAGRAM:</p>
+        <img src="images/while.jpg" alt="whileimage" />
+      </div>
+
+      <span class="tut">TUTORIALS:</span>
+      <iframe
+        id="whiletutorial"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/HZARImviDxg"
+        title="YouTube video player"
+      ></iframe>
+    </div>
+
+    <br />
+    <div class="c1">
+      <h3>IF STATEMENTS</h3>
+      <p>
+        If statements are used to execute a block of code based on a condition.
+      </p>
+      <br />
+      <p>
+        To use if statements you use the keyword <code>if</code> followed by a
+        condition. The block of code to be executed is indented below.
+      </p>
+      <br />
+      <div class="codesnippet">
+        <p>EXAMPLE 1:</p>
+        <code> if (x &lt; 5):<br />print("Hello World") </code>
+        <br />
+        <p>EXAMPLE 2:</p>
+        <code> if (x &lt; 10):<br />print("The number is", x) </code>
+        <br />
+        <br />
+
+        <div class="pic">
+          <p>DIAGRAM:</p>
+          <img src="images/if.jpg" alt="ifimage" />
+        </div>
+
+        <span class="tut">TUTORIALS:</span>
+        <iframe
+          id="iftutorial"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/PqFKRqpHrjw"
+          title="YouTube video player"
+        ></iframe>
+      </div>
+    </div>
+    <br />
+
+    <div class="Tablec">
+      <h3>COURSES OFFERED</h3>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col" rowspan="2">COURSES</th>
+            <th scope="col" rowspan="2">KEY FACILITIES</th>
+            <th scope="col" colspan="2">COURSE PRICE</th>
+          </tr>
+          <tr>
+            <th scope="col">Standard</th>
+            <th scope="col">Deluxe</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="one">
+            <th scope="row">Accelerate</th>
+            <td>
+              <ul>
+                <li>24/7 Support</li>
+                <li>1-on-1 Mentorship</li>
+                <li>3-Month Course</li>
+              </ul>
+            </td>
+            <td>1500</td>
+            <td>2000</td>
+          </tr>
+
+          <tr class="two">
+            <th scope="row">Achiever</th>
+            <td>
+              <ul>
+                <li>All Accelerate Features</li>
+                <li>In person Doubt Clearing</li>
+                <li>Regular Exams and Assesments</li>
+              </ul>
+            </td>
+            <td>3000</td>
+            <td>3500</td>
+          </tr>
+
+          <tr class="three">
+            <th scope="row">Master</th>
+            <td>
+              <ul>
+                <li>All Achiever Features</li>
+                <li>Dedicated Teacher For Each Subject</li>
+                <li>Access To Premium Materials/Notes</li>
+              </ul>
+            </td>
+            <td>5000</td>
+            <td>5500</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br />
+
+    <div class="formsignup">
+      <h3>SIGN UP FOR OUR CLASSES</h3>
+      <div class="ff">
+        <form action="/my-page" method="post">
+          <p class="Des">
+            <label for="nam">
+              Name
+              <br />
+              <input type="text" id="nameu" placeholder="Enter Name" />
+            </label>
+          </p>
+          <br />
+          <p>
+            <label for="mai">
+              Email Id
+              <br />
+              <input type="email" id="emau" placeholder="Enter Email Id" />
+            </label>
+          </p>
+          <br />
+          <p>
+            <label for="mai">
+              Password
+              <br />
+              <input type="password" id="passu" placeholder="Enter Password" />
+            </label>
+          </p>
+          <br />
+        </form>
+      </div>
+
+      <div class="sf">
+        <form action="/my-page" method="post">
+          <ul class="opl">
+            <span class="jst">CHOOSE A COURSE:</span>
+            <br />
+            <li>
+              <label for="acc">
+                <input type="radio" name="x" value="" />
+                <span class="opn">Accelerate</span>
+              </label>
+            </li>
+            <br />
+            <li>
+              <label for="ach">
+                <input type="radio" name="x" value="" />
+                <span class="opn">Achiever</span>
+              </label>
+            </li>
+            <br />
+            <li>
+              <label for="mas">
+                <input type="radio" name="x" value="" />
+                <span class="opn">Master</span>
+              </label>
+            </li>
+          </ul>
+          <br />
+        </form>
+      </div>
+      <button class="buto" type="button">SUBMIT</button>
+    </div>
+  </body>
+</html>
